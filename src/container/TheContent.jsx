@@ -15,39 +15,39 @@ const TheContent = () => {
                   <div className="content-cat">
                     <ul>
                       <li>
-                        <i className="fa fa-angle-right" />{" "}
+                        <i className="fa fa-angle-right" />
                         <a href="/#">Điện thoại</a>
                       </li>
                       <li>
-                        <i className="fa fa-angle-right" />{" "}
+                        <i className="fa fa-angle-right" />
                         <a href="/#">Máy tính bảng</a>
                       </li>
                       <li>
-                        <i className="fa fa-angle-right" />{" "}
+                        <i className="fa fa-angle-right" />
                         <a href="/#">laptop</a>
                       </li>
                       <li>
-                        <i className="fa fa-angle-right" />{" "}
+                        <i className="fa fa-angle-right" />
                         <a href="/#">Apple</a>
                       </li>
                       <li>
-                        <i className="fa fa-angle-right" />{" "}
+                        <i className="fa fa-angle-right" />
                         <a href="/#">Đồng hồ thông minh</a>
                       </li>
                       <li>
-                        <i className="fa fa-angle-right" />{" "}
+                        <i className="fa fa-angle-right" />
                         <a href="/#">Thiết bị đeo tay</a>
                       </li>
                       <li>
-                        <i className="fa fa-angle-right" />{" "}
+                        <i className="fa fa-angle-right" />
                         <a href="/#">Camera</a>
                       </li>
                       <li>
-                        <i className="fa fa-angle-right" />{" "}
+                        <i className="fa fa-angle-right" />
                         <a href="/#">Tivi</a>
                       </li>
                       <li>
-                        <i className="fa fa-angle-right" />{" "}
+                        <i className="fa fa-angle-right" />
                         <a href="/#">Sản phẩm khác</a>
                       </li>
                     </ul>
@@ -421,7 +421,7 @@ const TheContent = () => {
                       <div className="item-product">
                         <div className="thumb">
                           <a href="/#">
-                            <img src="images/sp.png" />
+                            <img src="images/sp.png" alt=''/>
                           </a>
                           <span className="sale">
                             Giảm <br />
@@ -455,7 +455,7 @@ const TheContent = () => {
                 </div>
               </div>
               <a href="/#">
-                <img src="https://phongtrodn.com/wp-content/uploads/2020/02/huykira.png" />
+                <img src="https://phongtrodn.com/wp-content/uploads/2020/02/huykira.png" alt='' />
               </a>
               <br />
               <br />
@@ -491,7 +491,75 @@ const TheContent = () => {
                       <div className="item-product">
                         <div className="thumb">
                           <a href="/#">
-                            <img src="images/sp.png" />
+                            <img src="images/sp.png" alt=''/>
+                          </a>
+                          <span className="sale">
+                            Giảm <br />
+                            15%
+                          </span>
+                          <div className="action">
+                            <a href="/#" className="buy">
+                              <i className="fa fa-cart-plus" /> Mua ngay
+                            </a>
+                            <a href="/#" className="like">
+                              <i className="fa fa-heart" /> Yêu thích
+                            </a>
+                            <div className="clear" />
+                          </div>
+                        </div>
+                        <div className="info-product">
+                          <h4>
+                            <a href="/#">Điện thoại iPhone Xs Max 256GB</a>
+                          </h4>
+                          <div className="price">
+                            <span className="price-current">28.990.000₫</span>
+                            <span className="price-old">33.990.000₫</span>
+                          </div>
+                          <a href="/#" className="view-more">
+                            Xem chi tiết
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                      <div className="item-product">
+                        <div className="thumb">
+                          <a href="/#">
+                            <img src="images/sp2.png" alt='' />
+                          </a>
+                          <span className="sale">
+                            Giảm <br />
+                            10%
+                          </span>
+                          <div className="action">
+                            <a href="/#" className="buy">
+                              <i className="fa fa-cart-plus" /> Mua ngay
+                            </a>
+                            <a href="/#" className="like">
+                              <i className="fa fa-heart" /> Yêu thích
+                            </a>
+                            <div className="clear" />
+                          </div>
+                        </div>
+                        <div className="info-product">
+                          <h4>
+                            <a href="/#">Điện thoại OPPO A5 (2020) 128GB</a>
+                          </h4>
+                          <div className="price">
+                            <span className="price-current">4.790.000₫</span>
+                            <span className="price-old">4.790.000₫</span>
+                          </div>
+                          <a href="/#" className="view-more">
+                            Xem chi tiết
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                      <div className="item-product">
+                        <div className="thumb">
+                          <a href="/#">
+                            <img src="images/sp.png" alt='' />
                           </a>
                           <span className="sale">
                             Giảm <br />
@@ -559,7 +627,41 @@ const TheContent = () => {
                       <div className="item-product">
                         <div className="thumb">
                           <a href="/#">
-                            <img src="images/sp.png" />
+                            <img src="images/sp2.png" alt='' />
+                          </a>
+                          <span className="sale">
+                            Giảm <br />
+                            10%
+                          </span>
+                          <div className="action">
+                            <a href="/#" className="buy">
+                              <i className="fa fa-cart-plus" /> Mua ngay
+                            </a>
+                            <a href="/#" className="like">
+                              <i className="fa fa-heart" /> Yêu thích
+                            </a>
+                            <div className="clear" />
+                          </div>
+                        </div>
+                        <div className="info-product">
+                          <h4>
+                            <a href="/#">Điện thoại OPPO A5 (2020) 128GB</a>
+                          </h4>
+                          <div className="price">
+                            <span className="price-current">4.790.000₫</span>
+                            <span className="price-old">4.790.000₫</span>
+                          </div>
+                          <a href="/#" className="view-more">
+                            Xem chi tiết
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                      <div className="item-product">
+                        <div className="thumb">
+                          <a href="/#">
+                            <img src="images/sp.png" alt='' />
                           </a>
                           <span className="sale">
                             Giảm <br />
@@ -593,7 +695,7 @@ const TheContent = () => {
                       <div className="item-product">
                         <div className="thumb">
                           <a href="/#">
-                            <img src="images/sp2.png" />
+                            <img src="images/sp2.png" alt=''/>
                           </a>
                           <span className="sale">
                             Giảm <br />
@@ -627,109 +729,7 @@ const TheContent = () => {
                       <div className="item-product">
                         <div className="thumb">
                           <a href="/#">
-                            <img src="images/sp2.png" />
-                          </a>
-                          <span className="sale">
-                            Giảm <br />
-                            10%
-                          </span>
-                          <div className="action">
-                            <a href="/#" className="buy">
-                              <i className="fa fa-cart-plus" /> Mua ngay
-                            </a>
-                            <a href="/#" className="like">
-                              <i className="fa fa-heart" /> Yêu thích
-                            </a>
-                            <div className="clear" />
-                          </div>
-                        </div>
-                        <div className="info-product">
-                          <h4>
-                            <a href="/#">Điện thoại OPPO A5 (2020) 128GB</a>
-                          </h4>
-                          <div className="price">
-                            <span className="price-current">4.790.000₫</span>
-                            <span className="price-old">4.790.000₫</span>
-                          </div>
-                          <a href="/#" className="view-more">
-                            Xem chi tiết
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                      <div className="item-product">
-                        <div className="thumb">
-                          <a href="/#">
-                            <img src="images/sp.png" />
-                          </a>
-                          <span className="sale">
-                            Giảm <br />
-                            15%
-                          </span>
-                          <div className="action">
-                            <a href="/#" className="buy">
-                              <i className="fa fa-cart-plus" /> Mua ngay
-                            </a>
-                            <a href="/#" className="like">
-                              <i className="fa fa-heart" /> Yêu thích
-                            </a>
-                            <div className="clear" />
-                          </div>
-                        </div>
-                        <div className="info-product">
-                          <h4>
-                            <a href="/#">Điện thoại iPhone Xs Max 256GB</a>
-                          </h4>
-                          <div className="price">
-                            <span className="price-current">28.990.000₫</span>
-                            <span className="price-old">33.990.000₫</span>
-                          </div>
-                          <a href="/#" className="view-more">
-                            Xem chi tiết
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                      <div className="item-product">
-                        <div className="thumb">
-                          <a href="/#">
-                            <img src="images/sp2.png" />
-                          </a>
-                          <span className="sale">
-                            Giảm <br />
-                            10%
-                          </span>
-                          <div className="action">
-                            <a href="/#" className="buy">
-                              <i className="fa fa-cart-plus" /> Mua ngay
-                            </a>
-                            <a href="/#" className="like">
-                              <i className="fa fa-heart" /> Yêu thích
-                            </a>
-                            <div className="clear" />
-                          </div>
-                        </div>
-                        <div className="info-product">
-                          <h4>
-                            <a href="/#">Điện thoại OPPO A5 (2020) 128GB</a>
-                          </h4>
-                          <div className="price">
-                            <span className="price-current">4.790.000₫</span>
-                            <span className="price-old">4.790.000₫</span>
-                          </div>
-                          <a href="/#" className="view-more">
-                            Xem chi tiết
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                      <div className="item-product">
-                        <div className="thumb">
-                          <a href="/#">
-                            <img src="images/sp.png" />
+                            <img src="images/sp.png" alt='' />
                           </a>
                           <span className="sale">
                             Giảm <br />
